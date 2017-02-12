@@ -4,6 +4,7 @@ package org.jvmstudy.ch3;
  * 
  * @author jackieliu
  * -verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
+ * -XX:+UseSerialGC 使用Serial收集器
  */
 public class Ch3_6_1 {
 	
